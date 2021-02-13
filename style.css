@@ -18,18 +18,31 @@ h1 {
 
 
 h2{
-color: white;
+color: rgb(224, 153, 153);
 }
-.Image{
- 
-     display:flex;
-      padding-right: 10%;
-     border: 1px solid rgb(12, 164, 224);
-     
-
-
- 
+.logo p{
+    
+    color: thistle;
 }
+.logo{
+    text-align: left;
+    position: absolute;
+       top: 8px;
+      right: 20px;
+     size: 1px;
+     border-radius: 1mm;
+      
+  
+  }
+  .Image img{
+    border: solid;
+    color: rgb(228, 224, 11);
+    display: flex;
+   
+    float: left;
+    width: 13%;
+    padding: 5px
+  }
 p{
 position: fixed;     
 text-align: center;    
@@ -38,13 +51,4 @@ width: 100%;
 font-size: 8mm;
 color: white;
 font-family:'Brush Script MT', cursive;
-}
-.logo{
-  text-align: right;
-  position: absolute;
-     top: 8px;
-    right: 16px;
-   border-radius: 1mm;
-    
-
 }
